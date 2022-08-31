@@ -1,0 +1,46 @@
+.container {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+
+.session {
+    display: flex;
+    justify-content: space-evenly;
+
+    border: solid 1px white;
+
+    height: 100vh;
+}
+
+.textBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    max-width: 50%;
+}
+
+.textBox h1 {
+    color: yellow;
+}
+
+.textBox p {
+
+}
+
+.textBox i {
+    text-align: center;
+}
+
+.imageBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+
+}
+
+
