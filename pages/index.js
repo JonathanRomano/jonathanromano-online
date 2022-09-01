@@ -15,6 +15,13 @@ export default function MainPage() {
 
       <main className={styles.main}>
         <h1>Jonathan Lauxen Romano</h1>
+        
+        <p>About me</p>
+
+        <p>Blog</p>
+        
+        <p>Portifolio</p>
+
 
         <div className={styles.session}>
 
@@ -66,6 +73,10 @@ export default function MainPage() {
 
         </div>
       </main>
+
+      <footer>
+        desenvolvido por: Eu mesmo
+      </footer>
     </div>
   )
 }
