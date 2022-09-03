@@ -14,14 +14,6 @@ export default function MainPage() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Jonathan Lauxen Romano</h1>
-        
-        <p>About me</p>
-
-        <p>Blog</p>
-        
-        <p>Portifolio</p>
-
 
         <div className={styles.session}>
 

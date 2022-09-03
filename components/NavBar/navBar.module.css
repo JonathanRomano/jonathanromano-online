@@ -1,0 +1,25 @@
+.navBar {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    
+    position: relative;
+    left: 10%;
+
+    position: fixed;
+    background-color: black;
+    z-index: 9999;
+}
+
+.title {
+
+}
+
+.itens {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.item {
+}
