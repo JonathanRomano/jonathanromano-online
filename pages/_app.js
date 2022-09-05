@@ -1,11 +1,20 @@
 import '../styles/globals.css'
 import NavBar from '../components/NavBar'
 
+import { AnimatePresence } from 'framer-motion'
+
 function MyApp({ Component, pageProps }) {
   return (
     <div>
       <NavBar/>
-      <Component {...pageProps} />
+      <AnimatePresence
+        exitBeforeEnter
+        initial={false}
+        onExitComplete={() => window.scrollTo(0, 0)}  
+      >
+
+        <Component {...pageProps} />
+      </AnimatePresence>
     </div>
   )
 }

@@ -6,7 +6,7 @@ export default () => {
     <div className={styles.navBar}>
       <Link href="/">
         <a className={styles.title}>
-          Jonathan Lauxen Romano
+          <h1>Jonathan Lauxen Romano</h1>
         </a>
       </Link>
 

@@ -1,18 +1,20 @@
 .navBar {
     display: flex;
-    width: 80%;
+    width: 100%;
+    padding: 0 10%;
+
+    align-items: center;
     justify-content: space-between;
     
     position: relative;
-    left: 10%;
 
     position: fixed;
-    background-color: black;
+    background-color: Blue;
     z-index: 9999;
 }
 
 .title {
-
+    
 }
 
 .itens {
@@ -22,4 +24,5 @@
 }
 
 .item {
+    color: white;   
 }
