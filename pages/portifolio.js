@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/pages.module.css'
 
-export default function MainPage() {
+export default function portifolioPage() {
   const imageSize = 150
   
   return (
@@ -28,7 +28,7 @@ export default function MainPage() {
           
           <div className={styles.textBox}>
             <h1>
-              Fullstack developer  
+              Port  
             </h1>
             
             <p>
