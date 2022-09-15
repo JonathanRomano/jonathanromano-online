@@ -1,20 +1,18 @@
-  import '../styles/globals.css'
-import NavBar from '../components/NavBar'
+import '../styles/globals.css'
+import '../styles/transition.css'
 
-import { AnimatePresence } from 'framer-motion'
+import Transition from '../components/Transition'
+
+import NavBar from '../components/NavBar'
 
 function MyApp({ Component, pageProps }) {
   return (
     <div>
       <NavBar/>
-      <AnimatePresence
-        mode='wait'
-        initial={false}
-        onExitComplete={() => window.scrollTo(0, 0)}  
-      >
+      <Transition>
 
         <Component {...pageProps} />
-      </AnimatePresence>
+      </Transition>
     </div>
   )
 }

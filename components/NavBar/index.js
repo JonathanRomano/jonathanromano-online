@@ -1,7 +1,7 @@
 import Link from "next/link"
 import styles from "./navBar.module.css"
 
-export default () => {
+const NavBar = () => {
   return (
     <div className={styles.navBar}>
       <Link href="/">
@@ -33,3 +33,5 @@ export default () => {
     </div>
   )
 }
+
+export default NavBar

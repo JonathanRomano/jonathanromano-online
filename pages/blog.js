@@ -36,7 +36,7 @@ export default function blogPage() {
               pode me chamar de Jony, um sou desenvolvedor de software apaixonado pelo que faço. Desistir não faz parte do meu vocabulário, sempre acreditei que para tudo tem um jeito e sinto que meu proposito nesse mundo é ajudar as pessoas a encontrar o seus caminhos usando a tecnologia.
             </p>
 
-            <i>"Não sou apenas programador, sou um solucionador de problemas"</i>
+            <i>&quot;Não sou apenas programador, sou um solucionador de problemas&quot;</i>
           </div>
         
         </div>
